@@ -1,0 +1,25 @@
+[11-Apr-2019 00:19:49 Asia/Almaty] PHP Warning:  mail() has been disabled for security reasons in /home/designbuild/public_html/mailsend.php on line 2
+[11-Apr-2019 00:20:30 Asia/Almaty] PHP Warning:  mail() has been disabled for security reasons in /home/designbuild/public_html/mailsend.php on line 2
+[11-Apr-2019 00:24:37 Asia/Almaty] PHP Warning:  mail() has been disabled for security reasons in /home/designbuild/public_html/mailsend.php on line 12
+[11-Apr-2019 00:24:49 Asia/Almaty] PHP Warning:  mail() has been disabled for security reasons in /home/designbuild/public_html/mailsend.php on line 12
+[11-Apr-2019 00:25:26 Asia/Almaty] PHP Warning:  mail() has been disabled for security reasons in /home/designbuild/public_html/mailsend.php on line 12
+[11-Apr-2019 00:25:30 Asia/Almaty] PHP Warning:  mail() has been disabled for security reasons in /home/designbuild/public_html/mailsend.php on line 12
+[11-Apr-2019 00:27:59 Asia/Almaty] PHP Warning:  mail() has been disabled for security reasons in /home/designbuild/public_html/mailsend.php on line 2
+[11-Apr-2019 00:31:36 Asia/Almaty] PHP Warning:  mail() has been disabled for security reasons in /home/designbuild/public_html/mailsend.php on line 8
+[11-Apr-2019 00:48:57 Asia/Almaty] PHP Warning:  mail() has been disabled for security reasons in /home/designbuild/public_html/mailsend.php on line 6
+[11-Apr-2019 00:53:24 Asia/Almaty] PHP Warning:  mail() has been disabled for security reasons in /home/designbuild/public_html/mailsend.php on line 6
+[11-Apr-2019 01:39:06 Asia/Almaty] PHP Warning:  require(C:\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in /home/designbuild/public_html/mailsend.php on line 7
+[11-Apr-2019 01:39:06 Asia/Almaty] PHP Warning:  require(C:\PHPMailer\src\Exception.php): failed to open stream: No such file or directory in /home/designbuild/public_html/mailsend.php on line 7
+[11-Apr-2019 01:39:06 Asia/Almaty] PHP Fatal error:  require(): Failed opening required 'C:\PHPMailer\src\Exception.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/designbuild/public_html/mailsend.php on line 7
+[11-Apr-2019 01:41:54 Asia/Almaty] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/designbuild/public_html/mailsend.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/designbuild/public_html/mailsend.php on line 12
+[11-Apr-2019 01:42:27 Asia/Almaty] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/designbuild/public_html/mailsend.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/designbuild/public_html/mailsend.php on line 12
+[11-Apr-2019 01:45:49 Asia/Almaty] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/designbuild/public_html/mailsend.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/designbuild/public_html/mailsend.php on line 12

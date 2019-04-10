@@ -1,0 +1,150 @@
+
+        html,
+        body,
+        header,
+        .jarallax {
+          height: 100%;
+        }
+        .cover-moto {
+            font-family: 'Tangerine', serif;
+            position: absolute;
+            left: 638px;
+          top: 662px;
+        }
+        .cover-moto h4 {
+            font-size: 33px;
+        }
+       
+       .display-4 {
+           font-size: 3rem!important;
+       }
+       .vertical-text {
+           transform: rotate(270deg); 
+           position: absolute; 
+           top: 8%;
+       }
+       .vertical-text-2 {
+           transform: rotate(450deg); 
+           position: absolute; 
+           top: 18%;
+           left: 38%;
+       }
+       #map {
+           height: 500px;
+            width: 700px;
+            max-width: 100%;
+            margin: auto;
+            border-radius: 16px;
+        }
+          
+        .container.gallery-container {
+            background-color: #fff;
+            color: #35373a;
+            min-height: 100vh;
+            padding: 30px 50px 0;
+        }
+
+        .tz-gallery {
+            padding: 40px;
+        }
+
+        /* Override bootstrap column paddings */
+        .tz-gallery .row > div {
+            padding: 2px;
+        }
+
+        .tz-gallery .lightbox img {
+            width: 100%;
+            border-radius: 0;
+            position: relative;
+        }
+
+        .tz-gallery .lightbox:before {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -13px;
+            margin-left: -13px;
+            opacity: 0;
+            color: #fff;
+            content: '';
+            pointer-events: none;
+            z-index: 9000;
+            transition: 0.4s;
+        }
+
+
+        .tz-gallery .lightbox:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            background-color: rgba(143, 136, 136, 0.2);
+            content: '';
+            transition: 0.4s;
+        }
+
+        .tz-gallery .lightbox:hover:after,
+        .tz-gallery .lightbox:hover:before {
+            opacity: 1;
+        }
+
+        .baguetteBox-button {
+            background-color: transparent !important;
+        }
+
+        .personal-pic {
+            width: 250px;
+            height: 250px;
+        }
+        .call-to-action-section {
+            padding: 60px 0;
+            background: url(http://designbuildltdbd.com/img/cta-bg.jpg) no-repeat scroll center center;
+            background-size: cover;
+        }
+       @media (max-width: 560px) {
+        .vertical-text {
+           transform: rotate(0deg); 
+           position: relative;
+           text-align: center; 
+       }
+       .vertical-text-2 {
+           display: none;
+       }
+       .rgba-indigo-light {
+           background-color: rgba(121,85,72,.7);
+           color: white;
+           }
+        #service-provided {
+            margin-top: 100px;
+        }
+        .custom-pr-1 {
+            padding-right: 3rem!important;
+        }
+        .custom-h3 {
+            font-size: 1.5rem!important;
+        }
+        .call-to-action-section h1 {
+            font-size: 2rem;
+        }
+       }
+
+        @media (min-width: 560px) and (max-width: 740px) {
+            html,
+            body,
+            header,
+            .jarallax {
+              height: 500px;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #23242a!important;
+            }
+            .navbar {
+              box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+            }
+        }
